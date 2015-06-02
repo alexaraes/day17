@@ -1,0 +1,33 @@
+body {
+  font-family: Dolce Vita Light, sans-serif;
+  font-size: 70px;
+  text-align: center;
+  background-color: #ccf3ff; }
+
+.button {
+  box-sizing: border-box;
+  height: 100px;
+  width: 425px;
+  background-color: #00a4d6;
+  color: white;
+  margin-top: 5%;
+  margin-left: 35%;
+  padding-top: 10px;
+  border-radius: 40px; }
+
+#start {
+  margin-top: 10%; }
+
+#loading {
+  box-sizing: border-box;
+  height: 100px;
+  width: 425px;
+  background-color: #00a4d6;
+  color: white;
+  margin-top: 15%;
+  margin-left: 35%;
+  padding-top: 10px;
+  border-radius: 40px;
+  font-size: 75px; }
+
+/*# sourceMappingURL=style.css.map */
