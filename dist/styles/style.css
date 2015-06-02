@@ -40,4 +40,44 @@ body {
   padding-top: 50px;
   font-size: 100px; }
 
+#settings-title {
+  box-sizing: border-box;
+  height: 150px;
+  width: 550px;
+  color: #00a4d6;
+  margin-top: 5%;
+  margin-left: 30.5%;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  font-size: 100px; }
+
+.settings {
+  box-sizing: border-box;
+  height: 75px;
+  width: 550px;
+  color: #00a4d6;
+  margin-left: 30.5%;
+  padding-top: 30px;
+  font-size: 40px; }
+
+#leaderboard {
+  box-sizing: border-box;
+  height: 150px;
+  width: 550px;
+  color: #00a4d6;
+  margin-top: 5%;
+  margin-left: 30.5%;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  font-size: 100px; }
+
+.leaders {
+  box-sizing: border-box;
+  height: 75px;
+  width: 550px;
+  color: #00a4d6;
+  margin-left: 30.5%;
+  padding-top: 20px;
+  font-size: 40px; }
+
 /*# sourceMappingURL=style.css.map */
