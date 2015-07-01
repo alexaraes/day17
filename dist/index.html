@@ -5,11 +5,41 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<section id="main">
-		<div class="button" id="start">START</div>
-		<div class="button" id="scores">TOP SCORES</div>
-		<div class="button" id="settings-btn">SETTINGS</div>
-	</section>
+		<div class="page" id="loading">
+			<span>LOADING...</span>
+		</div>
+		<div class="page" id="menu">
+			<div class="button" id="start">START</div>
+			<div class="button" id="scores">TOP SCORES</div>
+			<div class="button" id="settings-btn">SETTINGS</div>
+		</div>
+		<div class="page" id="leaderboard">
+			<div id="top-scores">TOP SCORES</div>
+			<div class="leaders">ALEXA 0</div>
+			<div class="leaders">ALEXA 0</div>
+			<div class="leaders">ALEXA 0</div>
+			<div class="back-btn">BACK</div>
+		</div>
 
+		<div class="page" id="settings">
+			<div id="settings-title">SETTINGS</div>
+			<div class="settings">SOUNDS ON/OFF</div>
+			<div class="settings">DIFFICULTY LEVELS</div>
+			<div class="settings">DONATE</div>
+			<div class="back-btn">BACK</div>
+		</div>
+
+		<div class="page" id="game">
+			<div id="gamestart">HERE WE GO!</div>
+			<div class="back-btn">BACK</div>
+		</div>
+
+
+	
+
+	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

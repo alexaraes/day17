@@ -8,7 +8,11 @@ body {
 	background-color: #ccf3ff;
 }
 
-.button {
+.page {
+	display: hidden;
+}
+
+.button, .back-btn {
 	box-sizing: border-box;
 	height: 100px;
 	width: 425px;
@@ -18,6 +22,20 @@ body {
 	margin-left: 35%;
 	padding-top: 10px;
 	border-radius: 40px;
+}
+
+.back-btn {
+	height: 50px;
+	width: 125px;
+	margin-left: 45%;
+	font-size: 35px;
+	padding-top: 5px;
+}
+
+.button:hover, .back-btn:hover {
+	background-color: white;
+	color: $buttoncolor;
+	cursor: pointer;
 }
 
 #start {
@@ -70,7 +88,7 @@ body {
 	font-size: 40px;
 }
 
-#leaderboard {
+#top-scores {
 	box-sizing: border-box;
 	height: 150px;
 	width: 550px;
